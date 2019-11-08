@@ -1,0 +1,55 @@
+@media print {
+	@page {
+  margin: 20px;
+}
+	.headHighlight {
+		color: #00000;
+		background: #FFFFFF
+	}
+
+	h1 {font-size: 20pt;
+		color:#00000 !important;
+	}
+	h2{color:#000000 !important;
+		font-size: 20pt;
+	}
+	h1,h2 {text-shadow: none !important;
+	border-bottom: 2pt solid #000;
+		border top: 2pt solid #000;}
+
+	p{  font-size:12pt;
+	    color: #00000;
+}
+	#menu {display: none;
+	}
+	
+	.break_before{page-break-before: always;
+	}
+	.break_after{page-break-after: always;
+	}
+	#main-area {width:auto;
+	margin: 0;
+	padding:0;
+	float: none;
+	}
+	
+	#colophon {
+		margin:0;
+	}
+	#masthead {
+		color:#000000 ;
+		text-shadow: none ;
+		font-size: 20pt;
+		margin:0;
+	}
+	
+	div.logo {color:#000000 ;
+		text-shadow: none;
+		font-size:30pt;
+		margin: 0;
+	}
+	img {
+		display: none}
+	}
+		
+	}
